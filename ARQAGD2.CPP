@@ -1,4 +1,4 @@
-//ARQAGD.cpp (Autor: Miguel Teixeira)
+//ARQAGD.CPP (Autor: Miguel Teixeira)
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
@@ -11,6 +11,7 @@ void cadastrar();
 void exibir();
      FILE *AGENDA; //criando o ponteiro de arquivo de nome AGENDA
      char ID[3], NOME[41],EMAIL[25];//declarando os campos do registro AGENDA
+
 void main()
      {
      int OPCAO;
@@ -43,6 +44,7 @@ void main()
 	    cout <<"\nOPCAO INVALIDA - TENTE NOVAMENTE !!!";
 	 getch();
   } }
+
  //subrotina  criar arquivo
  void criar_arq()
   {
@@ -54,6 +56,7 @@ void main()
   getch();
   fclose(AGENDA);// fecha o ponteiro de arquivo AGENDA
     }
+
  //subrotina de cadastramento
  void cadastrar()
   {
