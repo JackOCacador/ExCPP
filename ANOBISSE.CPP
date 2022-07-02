@@ -10,11 +10,11 @@ int ano;
 cout<<"\n Digite o ano: ";
 cin>>ano;
 if (ano%400==0 || ano%4==0 && ano%100!=0){
-cout<<"\n O ano "<<ano<<" ‚ bissexto";
+cout<<"\n O ano "<<ano<<" Ã© bissexto";
 }
 else{
-cout<<"\n O ano "<<ano<<" nao ‚ bissexto";
+cout<<"\n O ano "<<ano<<" nÃ£o Ã© bissexto";
 }
-cout<<"\n\n Quer rodar o APP de novo ? <s/n>";
+cout<<"\n\n Quer rodar o APP de novo <s/n>:";
 } while(tolower(getch()=='s'));
 }
