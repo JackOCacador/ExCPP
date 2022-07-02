@@ -1,4 +1,4 @@
-//ARQAGD3.cpp (Autor: Miguel Teixeira)
+//ARQAGD3.CPP (Autor: Miguel Teixeira)
 #include<stdio.h>
 #include<conio.h>
 #include<stdlib.h>
@@ -24,7 +24,7 @@
 	cout<<"\n 2_Cadastrar Registro";
 	cout<<"\n 3_Exibir Registro";
 	cout<<"\n 4_Sair";
-	cout<<"\n Qual op‡ao deseja===>"; cin>>Op;
+	cout<<"\n Qual opâ€¡ao deseja===>"; cin>>Op;
 	fflush(stdin);
 	switch(Op)
 	 {
