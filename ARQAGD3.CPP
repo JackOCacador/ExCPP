@@ -49,7 +49,7 @@
   } while(tolower(getch()=='s'));
  }
 
-     // SubRotinas
+ // SubRotinas
 
  void Criar_Arq()
  {
