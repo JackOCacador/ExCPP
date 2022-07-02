@@ -1,4 +1,5 @@
 //(Autor: Miguel Teixeira)
+//Obs: Neste c√≥digo foi utilizado uma biblioteca criada por MIM (Miguel Teixeira). Essa BIBLIOTECA (Areas.h) n√£o ser√° divulgada. 
 #include<iostream.h>
 #include<conio.h>
 #include<Areas.h>
@@ -12,32 +13,32 @@ void Beep() {
 sound(300); delay(500); nosound(); sound(500); nosound();
 }
 
-//App para calcular a †rea
+//App para calcular area
 void main() {
 do{
 clrscr();
 int op;
 float x, y, r;
-cout<<"\n Opáoes de †reas:";
-cout<<"\n 1-Circulo";
+cout<<"\n Op√ßoes de ¬†√°reas:";
+cout<<"\n 1-C√≠rculo";
 cout<<"\n 2-Quadrado";
-cout<<"\n 3-Retangulo";
-cout<<"\n 4-Triangulo";
+cout<<"\n 3-Ret√¢ngulo";
+cout<<"\n 4-Tri√¢ngulo";
 cout<<"\n 5-Sair";
-cout<<"\n\n Digite o n£mero da opáao: ";
+cout<<"\n\n Digite o n√∫mero da op√ß√£o: ";
 cin>>op;
 
 switch(op) {
 	case 1:
 	  cout<<"\n Digite o raio:";
 	  cin>>r;
-	  cout<<"\n A †rea do circulo Ç: "<<ACirculo;
+	  cout<<"\n A ¬†rea do c√≠rculo √©: "<<ACirculo;
 	 break;
 
 	case 2:
 	  cout<<"\n Digite o lado:";
 	  cin>>x;
-	  cout<<"\n A †rea do quadrado Ç: "<<AQuadrado;
+	  cout<<"\n A ¬†rea do quadrado √©: "<<AQuadrado;
 	 break;
 
 	case 3:
@@ -45,7 +46,7 @@ switch(op) {
 	  cin>>x;
 	  cout<<"\n Digite a altura:";
 	  cin>>y;
-	  cout<<"\n A †rea do retangulo Ç: "<<ARetangulo;
+	  cout<<"\n A ¬†rea do retangulo √©: "<<ARetangulo;
 	 break;
 
 	case 4:
@@ -53,7 +54,7 @@ switch(op) {
 	  cin>>x;
 	  cout<<"\n Digite a altura:";
 	  cin>>y;
-	  cout<<"\n A †rea do triangulo Ç: "<<ATriangulo;
+	  cout<<"\n A √°rea do tri√¢ngulo √©: "<<ATriangulo;
 	 break;
 
 	case 5:
@@ -61,8 +62,9 @@ switch(op) {
 	 delay(1000);
 	 return;
 	break;
+		
 	default:
-	  cout<<"\n Opáao Invalida";
+	  cout<<"\n Op√ß√£o Invalida";
 	  }
 	  Beep();
 cout<<"\n\n Quer rodar o APP de novo <s/n>: ";
