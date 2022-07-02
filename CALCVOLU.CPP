@@ -1,4 +1,5 @@
 //CalcVolu.cpp (Autor: Miguel Teixeira)
+//Obs: Neste c√≥digo foi utilizado uma biblioteca criada por MIM (Miguel Teixeira). Essa BIBLIOTECA (volume.h) n√£o ser√° divulgada.
 #include<iostream.h>
 #include<conio.h>
 #include<dos.h>
@@ -32,7 +33,7 @@ void main ()
 	 gotoxy(29, 7);cout<<" 4_Volume do Cone";
 	 gotoxy(29, 8);cout<<" 5_Sair";
 	 gotoxy(28, 9);cout<<" ---------------------";
-	 gotoxy(26,10);cout<<" Digite o n£mero da opáao: ";
+	 gotoxy(26,10);cout<<" Digite o n√∫mero da op√ß√£o: ";
 	 cin>>Op;
 	  switch (Op)
 	   {
@@ -54,7 +55,7 @@ void main ()
 	     return;
 	    //break;
 	    default:
-	     gotoxy(30,14);textcolor(4);cprintf(" Opáao invalida!!!");
+	     gotoxy(30,14);textcolor(4);cprintf(" Op√ß√£o invalida!!!");
 	}
    /*if (Color>0)
 	Color=Color-1;
@@ -82,7 +83,7 @@ void main ()
 	 gotoxy(32,13);cout<<" Digite o raio:";
 	 cin>>r;
 	 Esfera();
-	 gotoxy(23,15);cout<<" O volume da Esfera Ç aproximadamente: ";
+	 gotoxy(23,15);cout<<" O volume da Esfera √© aproximadamente: ";
 	 gotoxy(37,16);cout<<V;
 	 return(0);
 	}
@@ -91,7 +92,7 @@ void main ()
 	 gotoxy(30,13);cout<<" Digite a altura: ";
 	 cin>>h;
 	 Cubo();
-	 gotoxy(29,15);cout<<" O volume do cubo Ç: "<<V;
+	 gotoxy(29,15);cout<<" O volume do cubo √©: "<<V;
 	 return(0);
 	}
 
@@ -101,7 +102,7 @@ void main ()
 	 gotoxy(31,14);cout<<" Digite a altura: ";
 	 cin>>h;
 	 Cilindro();
-	 gotoxy(21,15);cout<<" O volume do cilindro Ç aproximadamente: ";
+	 gotoxy(21,15);cout<<" O volume do cilindro √© aproximadamente: ";
 	 gotoxy(36,16);cout<<V;
 	 return(0);
 	}
@@ -112,7 +113,7 @@ void main ()
 	 gotoxy(32,14);cout<<" Digite a altura: ";
 	 cin>>h;
 	 Cone();
-	 gotoxy(23,15);cout<<" O volume do Cone Ç aproximadamente:";
+	 gotoxy(23,15);cout<<" O volume do Cone √© aproximadamente:";
 	 gotoxy(36,16);cout<<V;
 	 return(0);
 	}
