@@ -1,5 +1,5 @@
-//Este programa mostra a cor dos valores numéricos da função "textcolor" em C/C++.
 //COLORS.CPP (Autor: Miguel Teixeira)
+//Esse programa mostra a cor dos valores numéricos da função "textcolor" em C/C++.
 #include<conio.h>
 #include<iostream.h>
 #include<dos.h>
