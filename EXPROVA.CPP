@@ -1,5 +1,5 @@
 //ExProva (Autor: Miguel Teixeira)
-//Conta diz a quantidade de carcteres na frase: "Boa Prova de LP e de Logica"
+//Este programa diz a quantidade de caracteres na frase: "Boa Prova de LP e de Logica"
 #include<iostream.h>
 #include<conio.h>
 #include<string.h>
