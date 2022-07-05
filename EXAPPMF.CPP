@@ -1,5 +1,5 @@
 //ExAppMF (Autor: Miguel Teixeira)
-//Este programa faz a média final, dizendo se o aluno foi aprovado ou reprovado, de acordo com os itens inseridos pelo usuário.
+//Esse programa faz a média final, dizendo se o aluno foi aprovado ou reprovado, de acordo com os itens inseridos pelo usuário.
 #include<conio.h>
 #include<stdio.h>
 void main() {
