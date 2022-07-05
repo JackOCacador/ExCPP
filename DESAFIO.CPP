@@ -1,7 +1,6 @@
-//Desafio.CPP (Autor: Miguel)
-//Desafio feito pelo professor Kao
-//colocar um carro dentro de uma moldura.
-//colocar cor no carro e na moldura.
+//DESAFIO.CPP (Autor: Miguel Teixeira)
+//Este programa foi desenvolvido para cumprir um desafio que o meu professor Kao fez para mim.
+//Colocar um carro dentro de uma moldura tendo cores deferentes.
 #include<iostream.h>
 #include<conio.h>
 #include<stdio.h>
@@ -16,25 +15,22 @@ cout<<"\n";
 cprintf("\n Coloque um carro dentro de uma moldura, pinte a moldura de uma cor e o carro de outra cor");
 cout<<"\n";
 //===========================================================================
+//===========================================================================
 textcolor(1);
 gotoxy(2,6);cprintf("\n\xC9\xCD\xCD\xCD\xCd\xCD\xCD\xCD\xCD\xCD\xCD\xBB");
-//cout<<"\n";
 gotoxy(2,7);cprintf("\n\xBA");
 textcolor(2);
 cprintf(" \xDC\xDC\xDB\xDB\xDB\xDB\xDC\xDC");
-//cout<"\n";
 textcolor(1);
 cprintf(" \xBA");
-//cout<<"\n";
 gotoxy(2,8);cprintf("\n\xBA");
 textcolor(2);
-
 cprintf(" \xDFO\xDF\xDF\xDF\xDFO\xDF");
 textcolor(1);
 cprintf(" \xBA");
-//cout<<"\n";
 gotoxy(2,9);cprintf("\n\xC8\xCD\xCD\xCD\xCd\xCD\xCD\xCD\xCD\xCD\xCD\xBC");
-//==========================================================================
+//===========================================================================
+//===========================================================================
 cout<<"\n\xC9\xCD\xCD\xCD\xCd\xCD\xCD\xCD\xCD\xCD\xCD\xBB";
 cout<<"\n\xBA";
 cout<<" \xDC\xDC\xDB\xDB\xDB\xDB\xDC\xDC";
