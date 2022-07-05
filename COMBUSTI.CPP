@@ -1,5 +1,5 @@
 //COMBUSTI.CPP (Autor: Miguel Teixeira)
-//Este programa calcula o consumo de combustível do carro por quilometro.
+//Esse programa calcula o consumo de combustível do carro por quilometro.
 #include<iostream.h>
 #include<conio.h>
 
