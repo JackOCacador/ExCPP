@@ -1,5 +1,5 @@
 //CONSTR.CPP (Autor: Miguel Teixeira)
-//Este programa faz a concatenação das Strings inseridas pelo usuário.
+//Esse programa faz a concatenação das Strings inseridas pelo usuário.
 #include<iostream.h>
 #include<conio.h>
 #include<string.h>
