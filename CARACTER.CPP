@@ -1,6 +1,5 @@
-//(Autor: Miguel Teixeira)
-//Este programa faz a leitura dos CARACTERES inseridos pelo usuário e o retorna ao mesmo.
-//CARACTER.CPP
+//CARACTER.CPP (Autor: Miguel Teixeira)
+//Esse programa faz a leitura dos CARACTERES inseridos pelo usuário e o retorna ao mesmo.
 #include<iostream.h>
 #include<conio.h>
 void main()
