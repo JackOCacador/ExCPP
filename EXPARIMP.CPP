@@ -1,5 +1,5 @@
 //EXPARIMP.CPP (Autor: Miguel Teixeira)
-//Este programa verifica se o número inserido pelo usuário é par ou impar.
+//Esse programa verifica se o número inserido pelo usuário é par ou impar.
 #include<conio.h>
 #include<stdio.h>
 void main () {
