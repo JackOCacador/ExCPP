@@ -1,6 +1,6 @@
 //(Autor: Miguel Teixeira)
 //Este programa faz a leitura dos CARACTERES inseridos pelo usuario e o retorna ao mesmo.
-//LeCarcc.cpp
+//LeCarac.cpp
 #include<iostream.h>
 #include<conio.h>
 void main()
