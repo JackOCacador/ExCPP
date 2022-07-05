@@ -4,8 +4,8 @@
 #include<iostream.h>
 #include<dos.h>
 
-int Time=0;
 void main () {
+//int Time=0;
 //textbackground(0);
 clrscr();
 //do {
