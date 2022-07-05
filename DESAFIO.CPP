@@ -1,5 +1,5 @@
 //DESAFIO.CPP (Autor: Miguel Teixeira)
-//Este programa foi desenvolvido para cumprir um desafio que o meu professor Kao fez para mim.
+//Esse programa foi desenvolvido para cumprir um desafio que o meu professor Kao fez para mim.
 //Colocar um carro dentro de uma moldura tendo cores deferentes.
 #include<iostream.h>
 #include<conio.h>
